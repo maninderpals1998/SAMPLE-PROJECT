@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+    class TeamBO
+    {
+
+
+        public Team CreateTeam(String data)
+        {
+            string []inputs = data.Split(',');
+            Team t = new Team(inputs[0], inputs[1]);
+            return t;
+        }
+
+
+
+
+
+    }
+
